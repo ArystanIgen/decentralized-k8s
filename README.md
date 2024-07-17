@@ -1,8 +1,9 @@
 # decentralized-k8s
-// TODO(user): Add simple overview of use/purpose
+This project aims to enhance the autonomy and efficiency of Kubernetes clusters by enabling individual nodes to manage their own resources. This decentralized approach reduces reliance on the central control plane, improves responsiveness, and enhances overall cluster resilience.
+
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+The Decentralized Kubernetes  project focuses on creating a Kubernetes operator that runs as a DaemonSet. Each node in the cluster runs an instance of the operator, which autonomously adjusts the node's resources based on real-time metrics. This approach aims to optimize performance and utilization, improve scalability, and enhance the overall resilience of the Kubernetes cluster.
 
 ## Getting Started
 
@@ -65,9 +66,6 @@ make uninstall
 ```sh
 make undeploy
 ```
-
-## Contributing
-// TODO(user): Add detailed information on how you would like others to contribute to this project
 
 **NOTE:** Run `make help` for more information on all potential `make` targets
 
